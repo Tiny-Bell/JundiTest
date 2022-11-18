@@ -4,10 +4,6 @@
         <aside class="side clearfix">
             <img src="../assets/logo.png" alt="">
             <ul class="side-ui" @click="toggleCss($event)">
-                <!-- <li v-for="(data, index) in dataArr" :key="index">
-                    <router-link @click.stop="toggleCss(index)" :class="StlyeShow == index ? 'ClickColor' : ''"><i>1</i> {{ data
-                    }}</router-link>
-                </li> -->
                 <li @click.stop="toggleCss(0)" :class="StlyeShow == 0 ? 'ClickColor' : ''"><i class="iconfont icon-dianliangfenxi"></i>
                     <router-link to="/home" :class="StlyeShow == 0 ? 'ClickColor' : ''"> 待办事项</router-link>
                 </li>
@@ -54,11 +50,17 @@ export default {
 
 <style scoped>
 /* 侧边栏 */
+img {
+    width: 160px;
+    margin-top: -1px;
+    margin-bottom: 5px;
+}
 .side {
     width: 160px;
     height: 960px;
     background-color: white;
     float: left;
+    box-shadow: 0 0 6px #ccc;
 }
 
 .side-ui {
@@ -66,11 +68,11 @@ export default {
     flex-direction: column;
 }
 
-.side-ui>li {
+.side-ui li {
     width: 100%;
-    height: 0;
     text-align: center;
-    flex: 1;
+    height: 60px;
+    background-color: white;
     position: relative;
     display: flex;
 }
@@ -84,17 +86,11 @@ export default {
 
 .side-ui>li>a {
     display: block;
-    width: 152px;
+    width: 160px;
+    height: 45px;
     line-height: 45px;
     cursor: pointer;
     font-size: 14px;
-
-}
-
-img {
-    width: 160px;
-    margin-top: -1px;
-    margin-bottom: 5px;
 }
 
 /* 点击样式 */
@@ -102,7 +98,6 @@ img {
     background-color: #effbff;
     color: #69b8ce;
     font-weight: 600;
-    /* border-left: #67b7d1 solid 8px; */
 }
 /* 点击样式的左侧小栏 */
 .ClickColor::before {

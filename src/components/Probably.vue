@@ -25,7 +25,7 @@ export default {
 /* 盒子 */
 .box {
   width: 315px;
-  height: 120px;
+  height: 90px;
   /* background-color: #a3b2cb; */
   border-radius: 5px;
   padding: 0 20px;
