@@ -46,7 +46,7 @@ export default {
 }
 
 .main {
-  width: 190px;
+  width: 210px;
 }
 
 .main p:first-child {

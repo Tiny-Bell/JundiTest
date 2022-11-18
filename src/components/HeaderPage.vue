@@ -11,7 +11,7 @@
                     <span><i class="iconfont icon-dianfeifenxi"></i> </span>
                     <span><i class="iconfont icon-gaojingyilan"></i> </span>
                     <span><i class="iconfont icon-chejianyongdianbaobiao "></i> </span>
-                    <span><img src="../assets/LOGO.png" alt=""> 何正旭</span>
+                    <span><img src="../assets/logo.png" alt=""> 何正旭</span>
                     <span><i class="iconfont icon-jiaoseguanli"></i> </span>
                 </div>
             </div>
