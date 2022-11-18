@@ -2,7 +2,7 @@
     <div>
 
         <aside class="side clearfix">
-            <img src="../assets/LOGO.png" alt="">
+            <img src="../assets/logo.png" alt="">
             <ul class="side-ui" @click="toggleCss($event)">
                 <!-- <li v-for="(data, index) in dataArr" :key="index">
                     <router-link @click.stop="toggleCss(index)" :class="StlyeShow == index ? 'ClickColor' : ''"><i>1</i> {{ data
