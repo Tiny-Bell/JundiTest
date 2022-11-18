@@ -37,103 +37,7 @@ import Table from '@/components/Table.vue';
 
 export default {
     name: "ElectricPage",
-    data() {
-        return {
-            tableData: [
-                {
-                    date: 'A0802',//业主
-                    name: '8号楼出租',//名称
-                    balance: '-20202.12',//余额
-                    color:'red',//手动电费
-                    value1:true,//自动电费
-                    value2:true,//自动断电
-                    value3:350//阈值
-                },
-                {
-                    date: 'A0102',//业主
-                    name: '诺基亚',//名称
-                    balance: '-4023.300.10',//余额
-                    color:'green',//手动电费
-                    value1:false,//自动电费
-                    value2:false,//自动断电
-                    value3:0//阈值
-                },
-
-                {
-                    date: 'A1201',//业主
-                    name: '移动机房',//名称
-                    balance: '-123.535.63',//余额
-                    color:'green',//手动电费
-                    value1:true,//自动电费
-                    value2:false,//自动断电
-                    value3:0//阈值
-                },
-                
-                {
-                    date: 'A0705',//业主
-                    name: '纪工委',//名称
-                    balance: '-424.5322',//余额
-                    color:'green',//手动电费
-                    value1:false,//自动电费
-                    value2:false,//自动断电
-                    value3:0//阈值
-                },
-                   
-                {
-                    date: 'A0603',//业主
-                    name: '清华院',//名称
-                    balance: '-35263.112',//余额
-                    color:'green',//手动电费
-                    value1:true,//自动电费
-                    value2:false,//自动断电
-                    value3:4223//阈值
-                },
-                {
-                    date: 'A0432',//业主
-                    name: '柴悦餐饮',//名称
-                    balance: '-3429.92.2',//余额
-                    color:'green',//手动电费
-                    value1:true,//自动电费
-                    value2:false,//自动断电
-                    value3:871//阈值
-                },
-                {
-                    date: 'A3424',//业主
-                    name: '科大讯飞',//名称
-                    balance: '-0842.212.2',//余额
-                    color:'green',//手动电费
-                    value1:true,//自动电费
-                    value2:false,//自动断电
-                    value3:2421//阈值
-                },
-                {
-                    date: 'A3520',//业主
-                    name: '交大2成',//名称
-                    balance: '-342342.60',//余额
-                    color:'green',//手动电费
-                    value1:true,//自动电费
-                    value2:false,//自动断电
-                    value3:1000//阈值
-                },
-              
-                {
-                    date: 'A4230',//业主
-                    name: 'DJ',//名称
-                    balance: '-214214.60',//余额
-                    color:'green',//手动电费
-                    value1:false,//自动电费
-                    value2:false,//自动断电
-                    value3:0//阈值
-                },
-            ],
-            
-            multipleSelection: []
-        }
-    },
     components: { Probably ,Table},
-    methods: {
-
-    }
 }
 </script>
 
@@ -182,8 +86,8 @@ export default {
 .probably {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
-    margin-bottom:40px;
+    margin-top: 35px;
+    margin-bottom:25px;
 }
 /* 表格 */
 .table {
@@ -194,6 +98,6 @@ export default {
     background-color: white;
     margin: 15px auto;
     margin-bottom: 0;
-    padding-top: 25px;
+    padding-top: 15px;
 }
 </style>

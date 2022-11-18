@@ -12,7 +12,12 @@ export default {
   name: 'App',
   components: {
     SideNavigation
-  }
+  },
+  created(){ 
+        if(this.$router.path !== '/home'){
+            this.$router.replace('/home')
+        }
+    }
 }
 </script>
 

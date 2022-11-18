@@ -58,6 +58,7 @@ export default {
     name: 'TablePage',
     data() {
         return {
+            // 表格数据
             tableData: [
                 {
                     date: 'A0802',//业主
@@ -152,7 +153,16 @@ export default {
                     value2: false,//自动断电
                     value3: 1000//阈值
                 },
-
+                 {
+                    date: 'A2630',//业主
+                    name: '而非都',//名称
+                    balance: '-214214.60',//余额
+                    outage: '供电中',
+                    color: 'green',//手动电费
+                    value1: true,//自动电费
+                    value2: false,//自动断电
+                    value3: 0//阈值
+                },
                 {
                     date: 'A4230',//业主
                     name: 'DJ',//名称
@@ -167,6 +177,7 @@ export default {
         }
     },
     methods: {
+        // 偶数行
         tableClass({ row, rowIndex }) {
             if (rowIndex % 2 == 1) {
                 //奇数行，序号不能被2整除
@@ -187,6 +198,7 @@ export default {
     float: right;
     margin-right: 30px;
 }
+/* 设置偶数表格颜色 */
 /deep/.even-row{
  background-color:#f7f9fb; 
 }
