@@ -1,0 +1,177 @@
+{
+  "id": "3779955",
+  "name": "君迪测试·",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2468113",
+      "name": "电量分析",
+      "font_class": "dianliangfenxi",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "2468116",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "2468117",
+      "name": "操作日志",
+      "font_class": "caozuorizhi",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "2468119",
+      "name": "峰谷平电量报表",
+      "font_class": "fenggupingdianliangbaobiao",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "2468120",
+      "name": "报表系统",
+      "font_class": "baobiaoxitong",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "2468121",
+      "name": "变压器运行评价",
+      "font_class": "bianyaqiyunhangpingjia",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "2468122",
+      "name": "菜单管理",
+      "font_class": "caidanguanli",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "2468123",
+      "name": "测点列表",
+      "font_class": "cedianliebiao",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "2468124",
+      "name": "电费分析",
+      "font_class": "dianfeifenxi",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "2468125",
+      "name": "定位系统",
+      "font_class": "dingweixitong",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "2468126",
+      "name": "车间用电报表",
+      "font_class": "chejianyongdianbaobiao",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "2468127",
+      "name": "采集设备信息查询",
+      "font_class": "caijishebeixinxichaxun",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "2468128",
+      "name": "负荷分析",
+      "font_class": "fuhefenxi",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "2468129",
+      "name": "告警一览",
+      "font_class": "gaojingyilan",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "2468130",
+      "name": "工段参数图",
+      "font_class": "gongduancanshutu",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "2468132",
+      "name": "能耗排名",
+      "font_class": "nenghaopaiming",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "2468133",
+      "name": "监测点对比分析",
+      "font_class": "jiancedianduibifenxi",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "2468134",
+      "name": "日用电量查询",
+      "font_class": "riyongdianliangchaxun",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "2468135",
+      "name": "零线电流分析",
+      "font_class": "lingxiandianliufenxi",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "2468136",
+      "name": "权限管理",
+      "font_class": "quanxianguanli",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "2468137",
+      "name": "节能改造对比",
+      "font_class": "jienenggaizaoduibi",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "2468138",
+      "name": "角色管理",
+      "font_class": "jiaoseguanli",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "2468140",
+      "name": "全厂鸟瞰图",
+      "font_class": "quanchangniaokantu",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "2468141",
+      "name": "三级菜单",
+      "font_class": "sanjicaidan",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    }
+  ]
+}
